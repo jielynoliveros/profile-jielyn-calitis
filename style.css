@@ -186,6 +186,10 @@ section{
     border-radius: 50%;
 }
 
+.section_pic-container_2 img{
+    border-radius: 6%;
+}
+
 .section_text{
     align-self: center;
     text-align: center;
