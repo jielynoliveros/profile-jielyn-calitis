@@ -181,15 +181,11 @@ section{
     width: 400px;
     margin: auto 0;
 }
-
-.section_pic-container img{
+    
+.section_pic-container img {
     border-radius: 50%;
 }
-
-.section_pic-container_2 img{
-    border-radius: 6%;
-}
-
+ 
 .section_text{
     align-self: center;
     text-align: center;
@@ -222,8 +218,13 @@ section{
 
 /*icons*/
 
-.icon {
+.social-icon {
     cursor: pointer;
+    height: 2rem;
+}
+
+.icon {
+    cursor: default;
     height: 2rem;
 }
 
@@ -255,4 +256,61 @@ section{
     cursor: pointer;
     background: none;
     color: black;
+}
+
+
+/*about section*/
+
+#about{
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-containers {
+    gap:2rem;
+}
+
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, .about-details-container {
+    display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container-2 {
+    height: 800px;
+    width: 800px;
+    margin: auto 0 0;
+}
+
+.text-container {
+    margin-top: 2rem;
 }
