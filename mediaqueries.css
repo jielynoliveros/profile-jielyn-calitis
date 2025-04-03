@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    #contact, .footer{
+    #contact, .gitfooter{
         height: 40vh;
         margin-bottom: 0;
     }
