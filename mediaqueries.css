@@ -33,7 +33,7 @@
         height: fit-content;
     }
     section{
-        margin: 0 5%;
+        margin: 5%;
     }
     .section_pic-container {
         width: 275px;
@@ -56,11 +56,11 @@
 @media screen and (max-width: 600px) {
     #contact, .gitfooter{
         height: 40vh;
-        margin-bottom: 0;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
     #article {
         font-size: 1rem;
-    
     }
     .footer-nav {
         height: fit-content;
@@ -69,8 +69,8 @@
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
     }
-    .contact-info-container {
-        margin: 0;
+    .contact-info-upper-container {
+        margin: 0 1rem 3rem 1rem;
     }
     .contact-info-container p, .nav-links li a {
         font-size: 1rem;
@@ -108,5 +108,13 @@
     }
     .footer-credits {
         font-size: 0.75rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    footer {
+        margin: 2rem;
+    }
+    .contact-info-container {
+        margin: 0;
     }
 }
